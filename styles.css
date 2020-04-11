@@ -1,0 +1,86 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+  font-family: 'Consolas', monospace;
+  color: #eee;
+  background: #191e24;
+}
+
+html {
+  -webkit-text-size-adjust: none
+}
+
+.wrapper {
+  display: table;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+.iwrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.avatar-wrapper {
+  /* border: 1px solid #eaeaea; */
+  border-radius: 3px;
+  /* background: white; */
+  padding: 10px;
+  display: inline-block;
+  font-size: 0;
+  margin-bottom: 15px;
+}
+
+.avatar-wrapper img {
+  border-radius: 5px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 1em;
+}
+
+.network-account {
+  margin-top: 6px;
+  padding: 3px 6px 6px 6px;
+  background: #f9f9f9;
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.favicon-stackoverflow {
+  width: 16px;
+  height: 16px;
+  background: url(stackoverflow-16.png);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+hr {
+  margin: 40px 20%;
+  border: 0 none;
+  border-top: 1px solid #eee;
+}
